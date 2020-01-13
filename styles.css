@@ -1,0 +1,176 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3CEBB;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(100, 94, 94);
+}
+
+
+.general{
+  display:flex ;
+  margin: 100px;
+  background-color:rgb(249, 237, 230);
+
+}
+
+.foto{
+  width: 125%;
+}
+
+.foto-detalle {
+  width: 100%;
+  max-width: 100%;
+}
+
+.informacion-producto {
+display: flex ;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 45px;
+width: 45%;
+display: flex;
+color: #444
+
+}
+.titulo{
+    font-size: 20px;
+    color: rgb(209, 143, 19) 
+
+}
+.contenedor-adress {
+  display: flex;
+  padding-bottom: 40px;
+  
+}
+
+
+.price-number {
+  color: rgb(224, 151, 14);
+  size: 15px;
+}
+
+.icono {
+  display:flex ;
+  height: 71px;
+  width: 71px;
+  position:absolute; bottom:375px;
+  position:absolute; right:28%;
+}
+
+
+.infoprod-title-orange {
+color: rgb(236, 99, 8);
+font-size: x-large;
+letter-spacing: 1px;
+
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoprod-title{
+  padding: 60px;
+}
+
+.number{
+  color:  rgb(236, 99, 8);
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+
+.metodo-pago {
+  display: flex;
+  
+}
+
+.h2{
+  font-weight: 150px;
+}
+
+.visa  {
+  height: 15px;
+  width: 23px;
+  margin:0 3px;
+  
+}
+
+.mastercard  {
+  height: 15px;
+  width: 23px;
+  margin:0 3px;
+
+}
+
+.american {
+  height: 15px;
+  width: 23px;
+  margin:0 3px;
+}
+.paypal {
+  height: 28px;
+  width: 40px;
+}
+.contenedor-paypal {
+  display: flex ;
+  
+}
+
+.senheiser {
+  display:block;
+  tab-size: 9px;
+}
+
+.momentum{
+  display:block;
+  tab-size: 9px;
+}
+
+.product {
+ margin: 0px; width: 50px; height: 30px;
+}
+
+.explicacion {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.linea1{
+  border-color: rgb(241, 157, 88)
+}
+
+.linea2{
+  border-color: rgb(241, 157, 88)
+}
+
+.linea3{
+  border-color: rgb(241, 157, 88)
+}
+
+.linea4{
+  border-color: rgb(241, 157, 88);
+
+}
+
+.lista{
+  padding-top: 20px;
+}
+
+.pay{
+  padding-top: 20px;
+}
+.shipping-adress{
+  padding: 5px;
+}
+
+.billing-adress{
+  padding:5px;
+}
+
+
+
